@@ -1,0 +1,260 @@
+{
+  "name": "JETAP",
+  "description": "Journal of Engineering Technology and Applied Physics (MMU Press, A4, rev 2026) - rules read from the official template; enforced by modules/jetap",
+  "template_asset": "assets/jetap_template.docx",
+  "page": {
+    "width_tw": 11906,
+    "height_tw": 16838,
+    "margin_tw": 1440,
+    "header_tw": 850,
+    "footer_tw": 624,
+    "columns": 2,
+    "column_width_tw": 4319,
+    "column_gap_tw": 386,
+    "text_width_tw": 9026
+  },
+  "roles": {
+    "masthead": {
+      "size": 28,
+      "bold": true,
+      "italic": false,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 6,
+      "first": 0
+    },
+    "title": {
+      "size": 24,
+      "bold": false,
+      "italic": false,
+      "align": "CENTER",
+      "line": 228,
+      "before": 8,
+      "after": 14,
+      "first": 289
+    },
+    "authors": {
+      "size": 9,
+      "bold": false,
+      "italic": true,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 289
+    },
+    "affiliation": {
+      "size": 9,
+      "bold": false,
+      "italic": true,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 289
+    },
+    "corresponding": {
+      "size": 9,
+      "bold": false,
+      "italic": false,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 289
+    },
+    "doi": {
+      "size": 8,
+      "bold": false,
+      "italic": false,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 289
+    },
+    "revision": {
+      "size": 8,
+      "bold": false,
+      "italic": true,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 289
+    },
+    "abstract": {
+      "size": 9,
+      "bold": true,
+      "italic": null,
+      "align": "JUSTIFY",
+      "line": 240,
+      "before": 0,
+      "after": 6,
+      "first": 289
+    },
+    "keywords": {
+      "size": 9,
+      "bold": true,
+      "italic": true,
+      "align": "JUSTIFY",
+      "line": 240,
+      "before": 0,
+      "after": 6,
+      "first": 288
+    },
+    "heading1": {
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "align": "CENTER",
+      "line": 240,
+      "before": 8,
+      "after": 4,
+      "first": 216
+    },
+    "heading2": {
+      "size": 10,
+      "bold": false,
+      "italic": true,
+      "align": "JUSTIFY",
+      "line": 240,
+      "before": 8,
+      "after": 4,
+      "first": null
+    },
+    "heading3": {
+      "size": 10,
+      "bold": false,
+      "italic": true,
+      "align": "JUSTIFY",
+      "line": 240,
+      "before": 4,
+      "after": 2,
+      "first": 289
+    },
+    "body": {
+      "size": 10,
+      "bold": null,
+      "italic": null,
+      "align": "JUSTIFY",
+      "line": 228,
+      "before": 0,
+      "after": 6,
+      "first": 289
+    },
+    "caption": {
+      "size": 8,
+      "bold": false,
+      "italic": false,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 216
+    },
+    "reference": {
+      "size": 8,
+      "bold": null,
+      "italic": null,
+      "align": "JUSTIFY",
+      "line": 228,
+      "before": 0,
+      "after": 3,
+      "first": null,
+      "left": 284,
+      "hanging": 284
+    },
+    "table_head": {
+      "size": 8,
+      "bold": true,
+      "italic": null,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 0
+    },
+    "table_cell": {
+      "size": 8,
+      "bold": null,
+      "italic": null,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 0
+    },
+    "decl_body": {
+      "size": 10,
+      "bold": null,
+      "italic": null,
+      "align": "JUSTIFY",
+      "line": null,
+      "before": null,
+      "after": null,
+      "first": null
+    },
+    "figure": {
+      "size": 10,
+      "bold": null,
+      "italic": null,
+      "align": "CENTER",
+      "line": 240,
+      "before": 0,
+      "after": 0,
+      "first": 0
+    }
+  },
+  "component_heads": [
+    "acknowledgement",
+    "acknowledgements",
+    "acknowledgment",
+    "acknowledgments",
+    "funding",
+    "funding statement",
+    "funding statements",
+    "author contribution",
+    "author contributions",
+    "authors contribution",
+    "authors contributions",
+    "author contribution statement",
+    "conflict of interest",
+    "conflict of interests",
+    "conflicts of interest",
+    "conflict of interest statement",
+    "ethics statement",
+    "ethics statements",
+    "ethical statement",
+    "ethics",
+    "data availability",
+    "data availability statement",
+    "data access statement",
+    "appendix",
+    "appendices",
+    "references",
+    "reference",
+    "bibliography"
+  ],
+  "required_parts": [
+    "Abstract",
+    "Keywords",
+    "Introduction",
+    "Conclusion",
+    "Acknowledgement",
+    "Funding Statement",
+    "Author Contributions",
+    "Conflict of Interests",
+    "Ethics Statements",
+    "Data Availability Statement",
+    "References"
+  ],
+  "notes": [
+    "Body is two-column; title block single-column",
+    "Headings: Roman (I.) / letter (A.) automatic numbering",
+    "References: IEEE style, automatic [1] numbering, 8pt",
+    "Captions: 'Fig. 1.' below figures, 'Table I.' above tables",
+    "No pagination; first-page header/footer cloned from template"
+  ]
+}
